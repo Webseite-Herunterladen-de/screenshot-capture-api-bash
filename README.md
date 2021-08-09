@@ -100,8 +100,8 @@ All URIs are relative to */v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ScreenshotApi* | [**placeScreenshotOrderAuthenticated**](docs/ScreenshotApi.md#placescreenshotorderauthenticated) | **GET** /capture/{token}/{hash} | 
-*ScreenshotApi* | [**placeScreenshotOrderUnauthenticated**](docs/ScreenshotApi.md#placescreenshotorderunauthenticated) | **GET** /capture/{token} | 
+*ScreenshotApi* | [**captureScreenshotAuthenticated**](docs/ScreenshotApi.md#capturescreenshotauthenticated) | **GET** /capture/{token}/{hash} | 
+*ScreenshotApi* | [**captureScreenshotUnauthenticated**](docs/ScreenshotApi.md#capturescreenshotunauthenticated) | **GET** /capture/{token} | 
 
 
 ## Documentation For Models

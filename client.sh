@@ -95,71 +95,71 @@ declare -a result_color_table=( "$WHITE" "$WHITE" "$GREEN" "$YELLOW" "$WHITE" "$
 # 0 - optional
 # 1 - required
 declare -A operation_parameters_minimum_occurrences
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::token"]=1
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::hash"]=1
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::url"]=1
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::fileType"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::ttl"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::invalidate"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::full"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::lazyload_scroll"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::delay"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::width"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::height"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::quality"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::scale"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::x"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::y"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::redirect"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::language"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::random_user_agent"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::user_agent"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::headers"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::cookies"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::css"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::js"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::wait"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::element"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::timezone"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::device"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::latitude"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::longitude"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::accuracy"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::proxy"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::adblock"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderAuthenticated:::hide_cookie_banners"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::token"]=1
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::url"]=1
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::fileType"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::ttl"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::invalidate"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::full"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::lazyload_scroll"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::delay"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::width"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::height"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::quality"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::scale"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::x"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::y"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::redirect"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::language"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::random_user_agent"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::user_agent"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::headers"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::cookies"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::css"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::js"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::wait"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::element"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::timezone"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::device"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::latitude"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::longitude"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::accuracy"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::proxy"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::adblock"]=0
-operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::hide_cookie_banners"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::token"]=1
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::hash"]=1
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::url"]=1
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::fileType"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::ttl"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::invalidate"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::full"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::lazyload_scroll"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::delay"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::width"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::height"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::quality"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::scale"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::x"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::y"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::redirect"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::language"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::random_user_agent"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::user_agent"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::headers"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::cookies"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::css"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::js"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::wait"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::element"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::timezone"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::device"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::latitude"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::longitude"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::accuracy"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::proxy"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::adblock"]=0
+operation_parameters_minimum_occurrences["captureScreenshotAuthenticated:::hide_cookie_banners"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::token"]=1
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::url"]=1
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::fileType"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::ttl"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::invalidate"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::full"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::lazyload_scroll"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::delay"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::width"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::height"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::quality"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::scale"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::x"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::y"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::redirect"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::language"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::random_user_agent"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::user_agent"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::headers"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::cookies"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::css"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::js"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::wait"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::element"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::timezone"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::device"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::latitude"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::longitude"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::accuracy"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::proxy"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::adblock"]=0
+operation_parameters_minimum_occurrences["captureScreenshotUnauthenticated:::hide_cookie_banners"]=0
 
 ##
 # This array stores the maximum number of allowed occurrences for parameter
@@ -168,141 +168,141 @@ operation_parameters_minimum_occurrences["placeScreenshotOrderUnauthenticated:::
 # N - N values
 # 0 - unlimited
 declare -A operation_parameters_maximum_occurrences
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::token"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::hash"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::url"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::fileType"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::ttl"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::invalidate"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::full"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::lazyload_scroll"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::delay"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::width"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::height"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::quality"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::scale"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::x"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::y"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::redirect"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::language"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::random_user_agent"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::user_agent"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::headers"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::cookies"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::css"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::js"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::wait"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::element"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::timezone"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::device"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::latitude"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::longitude"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::accuracy"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::proxy"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::adblock"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderAuthenticated:::hide_cookie_banners"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::token"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::url"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::fileType"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::ttl"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::invalidate"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::full"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::lazyload_scroll"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::delay"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::width"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::height"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::quality"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::scale"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::x"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::y"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::redirect"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::language"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::random_user_agent"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::user_agent"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::headers"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::cookies"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::css"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::js"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::wait"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::element"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::timezone"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::device"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::latitude"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::longitude"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::accuracy"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::proxy"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::adblock"]=0
-operation_parameters_maximum_occurrences["placeScreenshotOrderUnauthenticated:::hide_cookie_banners"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::token"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::hash"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::url"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::fileType"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::ttl"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::invalidate"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::full"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::lazyload_scroll"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::delay"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::width"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::height"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::quality"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::scale"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::x"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::y"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::redirect"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::language"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::random_user_agent"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::user_agent"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::headers"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::cookies"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::css"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::js"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::wait"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::element"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::timezone"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::device"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::latitude"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::longitude"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::accuracy"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::proxy"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::adblock"]=0
+operation_parameters_maximum_occurrences["captureScreenshotAuthenticated:::hide_cookie_banners"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::token"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::url"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::fileType"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::ttl"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::invalidate"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::full"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::lazyload_scroll"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::delay"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::width"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::height"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::quality"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::scale"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::x"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::y"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::redirect"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::language"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::random_user_agent"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::user_agent"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::headers"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::cookies"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::css"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::js"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::wait"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::element"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::timezone"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::device"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::latitude"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::longitude"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::accuracy"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::proxy"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::adblock"]=0
+operation_parameters_maximum_occurrences["captureScreenshotUnauthenticated:::hide_cookie_banners"]=0
 
 ##
 # The type of collection for specifying multiple values for parameter:
 # - multi, csv, ssv, tsv
 declare -A operation_parameters_collection_type
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::token"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::hash"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::url"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::fileType"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::ttl"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::invalidate"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::full"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::lazyload_scroll"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::delay"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::width"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::height"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::quality"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::scale"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::x"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::y"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::redirect"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::language"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::random_user_agent"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::user_agent"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::headers"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::cookies"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::css"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::js"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::wait"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::element"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::timezone"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::device"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::latitude"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::longitude"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::accuracy"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::proxy"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::adblock"]=""
-operation_parameters_collection_type["placeScreenshotOrderAuthenticated:::hide_cookie_banners"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::token"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::url"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::fileType"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::ttl"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::invalidate"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::full"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::lazyload_scroll"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::delay"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::width"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::height"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::quality"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::scale"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::x"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::y"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::redirect"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::language"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::random_user_agent"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::user_agent"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::headers"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::cookies"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::css"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::js"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::wait"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::element"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::timezone"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::device"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::latitude"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::longitude"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::accuracy"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::proxy"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::adblock"]=""
-operation_parameters_collection_type["placeScreenshotOrderUnauthenticated:::hide_cookie_banners"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::token"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::hash"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::url"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::fileType"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::ttl"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::invalidate"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::full"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::lazyload_scroll"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::delay"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::width"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::height"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::quality"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::scale"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::x"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::y"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::redirect"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::language"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::random_user_agent"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::user_agent"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::headers"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::cookies"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::css"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::js"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::wait"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::element"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::timezone"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::device"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::latitude"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::longitude"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::accuracy"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::proxy"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::adblock"]=""
+operation_parameters_collection_type["captureScreenshotAuthenticated:::hide_cookie_banners"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::token"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::url"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::fileType"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::ttl"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::invalidate"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::full"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::lazyload_scroll"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::delay"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::width"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::height"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::quality"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::scale"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::x"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::y"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::redirect"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::language"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::random_user_agent"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::user_agent"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::headers"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::cookies"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::css"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::js"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::wait"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::element"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::timezone"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::device"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::latitude"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::longitude"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::accuracy"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::proxy"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::adblock"]=""
+operation_parameters_collection_type["captureScreenshotUnauthenticated:::hide_cookie_banners"]=""
 
 
 ##
@@ -664,8 +664,8 @@ EOF
     echo ""
     echo -e "${BOLD}${WHITE}[screenshot]${OFF}"
 read -r -d '' ops <<EOF
-  ${CYAN}placeScreenshotOrderAuthenticated${OFF};
-  ${CYAN}placeScreenshotOrderUnauthenticated${OFF};
+  ${CYAN}captureScreenshotAuthenticated${OFF};
+  ${CYAN}captureScreenshotUnauthenticated${OFF};
 EOF
 echo "  $ops" | column -t -s ';'
     echo ""
@@ -721,12 +721,12 @@ print_version() {
 
 ##############################################################################
 #
-# Print help for placeScreenshotOrderAuthenticated operation
+# Print help for captureScreenshotAuthenticated operation
 #
 ##############################################################################
-print_placeScreenshotOrderAuthenticated_help() {
+print_captureScreenshotAuthenticated_help() {
     echo ""
-    echo -e "${BOLD}${WHITE}placeScreenshotOrderAuthenticated - ${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
+    echo -e "${BOLD}${WHITE}captureScreenshotAuthenticated - ${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
     echo -e ""
     echo -e "Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect." | paste -sd' ' | fold -sw 80
     echo -e ""
@@ -817,12 +817,12 @@ print_placeScreenshotOrderAuthenticated_help() {
 }
 ##############################################################################
 #
-# Print help for placeScreenshotOrderUnauthenticated operation
+# Print help for captureScreenshotUnauthenticated operation
 #
 ##############################################################################
-print_placeScreenshotOrderUnauthenticated_help() {
+print_captureScreenshotUnauthenticated_help() {
     echo ""
-    echo -e "${BOLD}${WHITE}placeScreenshotOrderUnauthenticated - ${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
+    echo -e "${BOLD}${WHITE}captureScreenshotUnauthenticated - ${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
     echo -e ""
     echo -e "Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect." | paste -sd' ' | fold -sw 80
     echo -e ""
@@ -914,10 +914,10 @@ print_placeScreenshotOrderUnauthenticated_help() {
 
 ##############################################################################
 #
-# Call placeScreenshotOrderAuthenticated operation
+# Call captureScreenshotAuthenticated operation
 #
 ##############################################################################
-call_placeScreenshotOrderAuthenticated() {
+call_captureScreenshotAuthenticated() {
     # ignore error about 'path_parameter_names' being unused; passed by reference
     # shellcheck disable=SC2034
     local path_parameter_names=(token hash)
@@ -950,10 +950,10 @@ call_placeScreenshotOrderAuthenticated() {
 
 ##############################################################################
 #
-# Call placeScreenshotOrderUnauthenticated operation
+# Call captureScreenshotUnauthenticated operation
 #
 ##############################################################################
-call_placeScreenshotOrderUnauthenticated() {
+call_captureScreenshotUnauthenticated() {
     # ignore error about 'path_parameter_names' being unused; passed by reference
     # shellcheck disable=SC2034
     local path_parameter_names=(token)
@@ -1081,11 +1081,11 @@ case $key in
         OFF=""
         result_color_table=( "" "" "" "" "" "" "" )
     ;;
-    placeScreenshotOrderAuthenticated)
-    operation="placeScreenshotOrderAuthenticated"
+    captureScreenshotAuthenticated)
+    operation="captureScreenshotAuthenticated"
     ;;
-    placeScreenshotOrderUnauthenticated)
-    operation="placeScreenshotOrderUnauthenticated"
+    captureScreenshotUnauthenticated)
+    operation="captureScreenshotUnauthenticated"
     ;;
     *==*)
     # Parse body arguments and convert them into top level
@@ -1164,11 +1164,11 @@ fi
 
 # Run cURL command based on the operation ID
 case $operation in
-    placeScreenshotOrderAuthenticated)
-    call_placeScreenshotOrderAuthenticated
+    captureScreenshotAuthenticated)
+    call_captureScreenshotAuthenticated
     ;;
-    placeScreenshotOrderUnauthenticated)
-    call_placeScreenshotOrderUnauthenticated
+    captureScreenshotUnauthenticated)
+    call_captureScreenshotUnauthenticated
     ;;
     *)
     ERROR_MSG="ERROR: Unknown operation: $operation"

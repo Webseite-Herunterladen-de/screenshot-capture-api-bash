@@ -296,8 +296,8 @@ case $state in
   ops)
     # Operations
     _values "Operations" \
-            "placeScreenshotOrderAuthenticated[]" \
-            "placeScreenshotOrderUnauthenticated[]" \
+            "captureScreenshotAuthenticated[]" \
+            "captureScreenshotUnauthenticated[]" \
 
     _arguments "(--help)--help[Print information about operation]"
 
@@ -305,7 +305,7 @@ case $state in
     ;;
   args)
     case $line[1] in
-      placeScreenshotOrderAuthenticated)
+      captureScreenshotAuthenticated)
         local -a _op_arguments
         _op_arguments=(
           "token=:[PATH] A valid token is needed to make paid API calls. Tokens can be managed from your account."
@@ -351,7 +351,7 @@ case $state in
           )
         _describe -t actions 'operations' _op_arguments -S '' && ret=0
         ;;
-      placeScreenshotOrderUnauthenticated)
+      captureScreenshotUnauthenticated)
         local -a _op_arguments
         _op_arguments=(
           "token=:[PATH] A valid token is needed to make paid API calls. Tokens can be managed from your account."

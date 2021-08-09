@@ -4,12 +4,12 @@ All URIs are relative to */v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**placeScreenshotOrderAuthenticated**](ScreenshotApi.md#placeScreenshotOrderAuthenticated) | **GET** /capture/{token}/{hash} | 
-[**placeScreenshotOrderUnauthenticated**](ScreenshotApi.md#placeScreenshotOrderUnauthenticated) | **GET** /capture/{token} | 
+[**captureScreenshotAuthenticated**](ScreenshotApi.md#captureScreenshotAuthenticated) | **GET** /capture/{token}/{hash} | 
+[**captureScreenshotUnauthenticated**](ScreenshotApi.md#captureScreenshotUnauthenticated) | **GET** /capture/{token} | 
 
 
 
-## placeScreenshotOrderAuthenticated
+## captureScreenshotAuthenticated
 
 
 
@@ -18,7 +18,7 @@ Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful scree
 ### Example
 
 ```bash
- placeScreenshotOrderAuthenticated token=value hash=value  url=value  fileType=value  ttl=value  invalidate=value  full=value  lazyload_scroll=value  delay=value  width=value  height=value  quality=value  scale=value  x=value  y=value  redirect=value  language=value  random_user_agent=value  user_agent=value  headers=value  cookies=value  css=value  js=value  wait=value  element=value  timezone=value  device=value  latitude=value  longitude=value  accuracy=value  proxy=value  adblock=value  hide_cookie_banners=value
+ captureScreenshotAuthenticated token=value hash=value  url=value  fileType=value  ttl=value  invalidate=value  full=value  lazyload_scroll=value  delay=value  width=value  height=value  quality=value  scale=value  x=value  y=value  redirect=value  language=value  random_user_agent=value  user_agent=value  headers=value  cookies=value  css=value  js=value  wait=value  element=value  timezone=value  device=value  latitude=value  longitude=value  accuracy=value  proxy=value  adblock=value  hide_cookie_banners=value
 ```
 
 ### Parameters
@@ -76,7 +76,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## placeScreenshotOrderUnauthenticated
+## captureScreenshotUnauthenticated
 
 
 
@@ -85,7 +85,7 @@ Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful scree
 ### Example
 
 ```bash
- placeScreenshotOrderUnauthenticated token=value  url=value  fileType=value  ttl=value  invalidate=value  full=value  lazyload_scroll=value  delay=value  width=value  height=value  quality=value  scale=value  x=value  y=value  redirect=value  language=value  random_user_agent=value  user_agent=value  headers=value  cookies=value  css=value  js=value  wait=value  element=value  timezone=value  device=value  latitude=value  longitude=value  accuracy=value  proxy=value  adblock=value  hide_cookie_banners=value
+ captureScreenshotUnauthenticated token=value  url=value  fileType=value  ttl=value  invalidate=value  full=value  lazyload_scroll=value  delay=value  width=value  height=value  quality=value  scale=value  x=value  y=value  redirect=value  language=value  random_user_agent=value  user_agent=value  headers=value  cookies=value  css=value  js=value  wait=value  element=value  timezone=value  device=value  latitude=value  longitude=value  accuracy=value  proxy=value  adblock=value  hide_cookie_banners=value
 ```
 
 ### Parameters
