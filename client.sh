@@ -674,7 +674,7 @@ echo "  $ops" | column -t -s ';'
     echo -e "  -V,--version\\t\\t\\t\\tPrint API version"
     echo -e "  --about\\t\\t\\t\\tPrint the information about service"
     echo -e "  --host ${CYAN}<url>${OFF}\\t\\t\\t\\tSpecify the host URL "
-echo -e "              \\t\\t\\t\\t(e.g. 'https://api.webseite-herunterladen.de')"
+echo -e "              \\t\\t\\t\\t(e.g. 'https://api.screenshot-capture-api.com')"
 
     echo -e "  --force\\t\\t\\t\\tForce command invocation in spite of missing"
     echo -e "         \\t\\t\\t\\trequired parameters or wrong content type"
@@ -702,7 +702,7 @@ print_about() {
     echo ""
 read -r -d '' appdescription <<EOF
 
-Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect.
+screenshot-capture-api.com Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect.
 EOF
 echo "$appdescription" | paste -sd' ' | fold -sw 80
 }
@@ -728,7 +728,7 @@ print_captureScreenshotAuthenticated_help() {
     echo ""
     echo -e "${BOLD}${WHITE}captureScreenshotAuthenticated - ${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
     echo -e ""
-    echo -e "Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect." | paste -sd' ' | fold -sw 80
+    echo -e "screenshot-capture-api.com Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect." | paste -sd' ' | fold -sw 80
     echo -e ""
     echo -e "${BOLD}${WHITE}Parameters${OFF}"
     echo -e "  * ${GREEN}token${OFF} ${BLUE}[string]${OFF} ${RED}(required)${OFF} ${CYAN}(default: null)${OFF} - A valid token is needed to make paid API calls. Tokens can be managed from your account. ${YELLOW}Specify as: token=value${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
@@ -824,7 +824,7 @@ print_captureScreenshotUnauthenticated_help() {
     echo ""
     echo -e "${BOLD}${WHITE}captureScreenshotUnauthenticated - ${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
     echo -e ""
-    echo -e "Webseite-Herunterladen.de Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect." | paste -sd' ' | fold -sw 80
+    echo -e "screenshot-capture-api.com Screenshot Capture is a very simple but powerful screenshot API that anyone can easily use to create pixel-perfect website screenshots. It always uses a recent version of Chrome to ensure that all modern web features are fully supported and rendering is exactly as your customers would expect." | paste -sd' ' | fold -sw 80
     echo -e ""
     echo -e "${BOLD}${WHITE}Parameters${OFF}"
     echo -e "  * ${GREEN}token${OFF} ${BLUE}[string]${OFF} ${RED}(required)${OFF} ${CYAN}(default: null)${OFF} - A valid token is needed to make paid API calls. Tokens can be managed from your account. ${YELLOW}Specify as: token=value${OFF}" | paste -sd' ' | fold -sw 80 | sed '2,$s/^/    /'
